@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="KGKRegister.MemberDetailPage" 
+    Title="{Binding Title}">
+	<StackLayout Spacing="20" Padding="15">
+        <StackLayout Orientation="Horizontal">
+            <Label Text="First Name: " FontSize="Medium" Font="Bold" />
+            <Label Text="{Binding Item.FirstName}" FontSize="Medium" />
+        </StackLayout>
+         <StackLayout Orientation="Horizontal">
+            <Label Text="Last Name: " FontSize="Medium" Font="Bold" />
+            <Label Text="{Binding Item.LastName}" FontSize="Medium" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="E-Mail Address: " FontSize="Medium" Font="Bold" />
+            <Label Text="{Binding Item.EmailAddress}" FontSize="Medium" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Student Number: " FontSize="Medium" Font="Bold" />
+            <Label Text="{Binding Item.StudentNumber}" FontSize="Medium" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Faculty: " FontSize="Medium" Font="Bold" />
+            <Label Text="{Binding Item.Faculty}" FontSize="Medium" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Departmant: " FontSize="Medium" Font="Bold" />
+            <Label Text="{Binding Item.Departmant}" FontSize="Medium" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Phone Number: " FontSize="Medium" Font="Bold" />
+            <Label Text="{Binding Item.PhoneNumber}" FontSize="Medium" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Is Paid: " FontSize="Medium" Font="Bold" />
+            <Label Text="{Binding Item.IsPaid}" FontSize="Medium" />
+        </StackLayout>
+	</StackLayout>
+</ContentPage>

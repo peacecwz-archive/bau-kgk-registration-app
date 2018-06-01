@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="KGKRegister.NewMemberPage" 
+    Title="New Member">
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Text="Save" Clicked="Save_Clicked" />
+	</ContentPage.ToolbarItems>
+	<ContentPage.Content>
+        <ScrollView>
+    		<StackLayout Spacing="20" Padding="15">
+    			<Label Text="First Name" FontSize="Medium" />
+    			<Entry Text="{Binding Item.FirstName}" FontSize="Small" />
+    			<Label Text="Last Name" FontSize="Medium" />
+    			<Entry Text="{Binding Item.LastName}" FontSize="Small" Margin="0" />
+                <Label Text="Student Number" FontSize="Medium" />
+                <Entry Text="{Binding Item.StudentNumber}" FontSize="Small" Margin="0" />
+                <Label Text="Faculty" FontSize="Medium" />
+                <Entry Text="{Binding Item.Faculty}" FontSize="Small" Margin="0" />
+                <Label Text="Departmant" FontSize="Medium" />
+                <Entry Text="{Binding Item.Departmant}" FontSize="Small" Margin="0" />
+                <Label Text="E-Mail Address" FontSize="Medium" />
+                <Entry Text="{Binding Item.EmailAddress}" FontSize="Small" Margin="0" />
+                <Label Text="Phone Number" FontSize="Medium" />
+                <Entry Text="{Binding Item.PhoneNumber}" FontSize="Small" Margin="0" />
+                <Label Text="Is Paid" FontSize="Medium" />
+                <Switch IsToggled="{Binding Item.IsPaid}" />
+            </StackLayout>
+        </ScrollView>
+	</ContentPage.Content>
+</ContentPage>
