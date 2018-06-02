@@ -7,7 +7,7 @@ namespace KGKRegister
     public partial class App : Application
     {
         public static bool UseMockDataStore = false;
-        public static string BackendUrl = "";
+        public static string BackendUrl = "https://kgkregister.azurewebsites.net";
 
         public App()
         {
