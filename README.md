@@ -36,7 +36,7 @@ A step by step series of building that project
 ```
     public static string BackendUrl = "https://myapp.azurewebsites.net/";
 ```
-3. Run the project and Enjoy! :bomb:
+4. Run the project and Enjoy! :bomb:
 
 ## Demo
 
