@@ -42,7 +42,7 @@ A step by step series of building that project
 
 | Android | iOS |
 | :-----: | :-: |
-| ![Android](https://media.giphy.com/media/7IYt048CMPtsQcWlTq/giphy.gif) | ![iOS](https://media.giphy.com/media/Yj8bSavj38AxZ6Oerl/giphy.gif)  |
+| ![Android](https://media.giphy.com/media/7IYt048CMPtsQcWlTq/200w_d.gif) | ![iOS](https://media.giphy.com/media/Yj8bSavj38AxZ6Oerl/giphy.gif)  |
 
 
 ## Built With
